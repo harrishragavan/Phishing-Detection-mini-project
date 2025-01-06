@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURI = 'mongodb+srv://xigi:xigi155@cluster0.9fzof.mongodb.net/phishingDB?retryWrites=true&w=majority&appName=Cluster0';
+const mongoURI = 'your db address';// your database address 
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const phishingSchema = new mongoose.Schema({
