@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // MongoDB connection URI (for local MongoDB)
-const mongoURI = 'mongodb+srv://xigi:xigi155@cluster0.9fzof.mongodb.net/phishingDB?retryWrites=true&w=majority&appName=Cluster0'; // For local MongoDB
+const mongoURI = 'mongodb+srv://your adderss'; // For local MongoDB
 // const mongoURI = 'mongodb+srv://<username>:<password>@cluster.mongodb.net/phishingDB?retryWrites=true&w=majority'; // For MongoDB Atlas
 
 // Connect to MongoDB
